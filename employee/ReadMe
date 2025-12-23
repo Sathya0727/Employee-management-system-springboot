@@ -1,0 +1,48 @@
+🧑‍💼 Employee Management System – Spring Boot
+📌 Project Overview
+
+The Employee Management System is a simple and clean backend-focused web application developed using Spring Boot.
+It provides core CRUD operations (Create, Read, Delete) for managing employee data through RESTful APIs, with a minimal HTML page only for basic interaction.
+
+This project is designed to demonstrate Java, Spring Boot, and REST API skills, making it ideal for GitHub portfolios and interviews.
+
+🚀 Features
+
+➕ Add a new employee
+
+📋 View all employees
+
+❌ Delete an employee by ID
+
+🌐 RESTful API design
+
+🧩 Layered architecture (Controller, Service, Model)
+
+🖥 Minimal HTML page for testing endpoints
+
+
+🛠️ Tech Stack
+
+Java
+
+Spring Boot
+
+Spring Web (REST APIs)
+
+Maven
+
+
+| Method | Endpoint            | Description           |
+| ------ | ------------------- | --------------------- |
+| GET    | `/employees`        | Application status    |
+| POST   | `/employees/add`    | Add new employee      |
+| GET    | `/employees/all`    | View all employees    |
+| POST   | `/employees/delete` | Delete employee by ID |
+
+▶️ How to Run the Project
+mvn spring-boot:run
+http://localhost:8080/index.html
+
+
+👤 Author
+Sathya J
